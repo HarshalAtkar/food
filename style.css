@@ -99,3 +99,52 @@ nav>button{
 #herosecton{
     color: #f94a3d;
 }
+
+.whywebest{
+    display: flex;
+    justify-content: space-between;
+}
+
+.receipes{
+    display:flex;
+    justify-content:center;
+    
+}
+.receipes ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    ;
+}
+.receipes ul >li{
+    margin-left: 20px;    
+}
+.faltu{
+    display: flex;
+    justify-content: space-around;
+}
+.feedback{
+    display: flex;
+    justify-content: space-around;
+}
+.feedback>div>div{
+    display: flex;
+    justify-content: space-around;
+}
+.feedback>div>div>div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+    
+}
+.feedback img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
